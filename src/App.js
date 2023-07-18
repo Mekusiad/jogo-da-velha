@@ -1,23 +1,15 @@
 import React, { Children } from "react";
+
+import "./styles/elements/generic/reset.css";
+
 import Header from "./components/Header";
-import Card from "./objects/Card";
-import Player from "./objects/Player";
+import Hashtag from "./components/Hashtag";
 
 function App() {
   return (
     <>
       <Header />
-      <Card>
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-        <Player player="x" />
-      </Card>
+      <Hashtag />
     </>
   );
 }
