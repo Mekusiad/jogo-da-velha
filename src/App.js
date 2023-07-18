@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import Header from "./components/Header";
 import Card from "./objects/Card";
 import Player from "./objects/Player";
@@ -7,8 +7,17 @@ function App() {
   return (
     <>
       <Header />
-      <Card />
-      <Player player="x" />
+      <Card>
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+        <Player player="x" />
+      </Card>
     </>
   );
 }
