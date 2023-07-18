@@ -3,5 +3,6 @@
   text-decoration: none;
   text-transform: uppercase;
 
-  font: bold 14px "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
