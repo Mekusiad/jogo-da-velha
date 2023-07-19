@@ -13,7 +13,7 @@ const App = () => {
     <main className="app">
       <Header />
       <Hashtag />
-      <Input id="show" value="show" content="Mostrar Eventos" />
+      <Input id="show" type="checkbox" value="show" content="Mostrar Eventos" />
     </main>
   );
 };
