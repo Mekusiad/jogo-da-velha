@@ -3,6 +3,7 @@ import React, { Children } from "react";
 import "./styles/elements/generic/reset.css";
 import "./App.css";
 
+import Input from "./objects/Input";
 import Label from "./objects/Label";
 
 import Header from "./components/Header";
@@ -13,6 +14,7 @@ const App = () => {
     <main className="app">
       <Header />
       <Hashtag />
+      <Input />
       <Label content="Mostrar eventos" />
     </main>
   );
