@@ -2,9 +2,9 @@ import React from "react";
 
 import "./styles.css";
 
-const Label = ({ content }) => {
+const Label = ({ htmlFor, content }) => {
   return (
-    <label htmlFor="" className="label">
+    <label htmlFor={htmlFor} className="label">
       {content}
     </label>
   );
