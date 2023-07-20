@@ -14,8 +14,6 @@
 
 .hashtag > .item {
   background-color: var(--color-zero);
-  display: flex;
-  justify-content: space-between;
 }
 
 .hashtag > .item:nth-child(2)::before,
