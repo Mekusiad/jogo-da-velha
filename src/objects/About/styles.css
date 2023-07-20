@@ -1,0 +1,7 @@
+.about {
+  background-color: var(--color-negative);
+  color: var(--color-zero);
+
+  height: 100vh;
+  width: 100vw;
+}
