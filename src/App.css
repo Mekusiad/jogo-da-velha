@@ -11,6 +11,8 @@
   display: inline-block;
   width: 90vw;
   height: 90vw;
+
+  margin-bottom: 40px;
 }
 
 .app > .card > .hashtag > .item {
@@ -23,4 +25,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.app .checkbox {
+  margin-top: 10px;
 }
