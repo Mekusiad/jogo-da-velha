@@ -1,16 +1,17 @@
 import React from "react";
 
 import "./styles.css";
+import CollabeCode from "../../assets/logo.png";
 
 import Logo from "../../objects/Logo";
-import Sobre from "../../objects/Sobre";
+import AboutLink from "../../objects/AboutLink";
 import Hamburguer from "../../objects/Hamburguer";
 
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
-      <Sobre />
+      <Logo src={CollabeCode} />
+      <AboutLink />
       <Hamburguer />
     </header>
   );
